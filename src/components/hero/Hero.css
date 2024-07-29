@@ -26,7 +26,7 @@
 }
 
 .hero h1 span{
-    background: linear-gradient(to right, #f7ea9b, #db9028);
+    background: linear-gradient(to right, #f7ea9b, #d37811);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;;
@@ -52,7 +52,7 @@
 .hero-connect{
     padding: 1.2rem 1.5rem;
     border-radius: 3rem; 
-    background: linear-gradient(to right, #f1de5c, #db9028);
+    background: linear-gradient(to right, #f1de5c, #ca720e);
     cursor: pointer;
    
 }

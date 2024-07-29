@@ -1,0 +1,98 @@
+.about{
+    margin: 1rem 20rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    gap: 5rem;
+}
+.about-title{
+    text-align: center;
+    font-size: 2rem;
+   
+}
+
+.about-title hr{
+    height: 0.3rem;
+    background: linear-gradient(to right, #f0e077, #e28923);
+    border-radius: 5px;
+}
+
+.about-sections{
+    display: flex;
+    gap: 5rem;
+    
+}
+ 
+.about-left{
+    
+    border-radius: 10px;
+    
+}
+
+.about-right{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.about-p{
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    font-size: 1.2rem;
+    
+}
+
+.about-skills{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.about-skill:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.about-skill p{
+    font-size: 1.5rem;
+    padding: 0.5rem 0;
+}
+
+.about-skill hr{
+    height: 0.5rem;
+    background: linear-gradient(to right, #f7e77f, #d4881d);
+    border-radius: 3rem;
+}
+
+.about-achievements{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+   
+}
+
+.about-achievement h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 3rem; 
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    background: linear-gradient(to right, #f7e77f, #d4881d);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} 
+
+.about-achievement p{
+    font-size: 1.5rem;
+}
+
+.about-achievement:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
