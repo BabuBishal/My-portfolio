@@ -1,0 +1,25 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem 20rem;
+    gap: 5rem;
+} 
+
+.contact-title{
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+.conta    background: linear-gradient(to right, #f0e077, #e28923);
+ct-title hr{
+    height: 0.3rem;
+    border-radius: 5px;
+   
+}
+
+.contact-left{
+
+}
