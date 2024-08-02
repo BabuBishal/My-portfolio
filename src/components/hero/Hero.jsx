@@ -4,7 +4,7 @@ import profile from "../../assets/profile_img.jpg";
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div id='hero' className="hero">
       <div className="profile">
       <img src={profile} alt="Profile Image" />
 

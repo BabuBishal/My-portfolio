@@ -24,3 +24,18 @@
     transform: scale(1.05);
 }
 
+.nav-resume{
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 1.2rem 1.5rem;
+    border-radius: 3rem; 
+    background: linear-gradient(to right, #f1de5c, #ca720e);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.nav-resume:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+

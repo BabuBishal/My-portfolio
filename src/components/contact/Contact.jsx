@@ -6,7 +6,7 @@ import location_img from '../../assets/location.png'
 
 const Contact = () => {
   return (
-           <div className="contact">
+           <div id='contact' className="contact">
             <div className="contact-title">
                 <h1>Get in Touch</h1>
                 <hr />

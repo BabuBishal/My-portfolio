@@ -5,7 +5,7 @@ import arrow_icon from '../../assets/arrow-icon.png'
 
 const Portfolio = () => {
   return (
-    <div className='portfolio'>
+    <div id='portfolio' className='portfolio'>
       <div className="work-title">
         <h1>My Works</h1>
         <hr />
