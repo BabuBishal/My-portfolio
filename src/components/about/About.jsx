@@ -16,15 +16,10 @@ const About = () => {
         <div className="about-right">
           <div className="about-p">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
-              consequatur amet voluptatum commodi, iure asperiores, corrupti
-              ullam saepe rerum error minus reiciendis voluptas? Placeat,
-              numquam.
+            Hello! I'm Bishal Babu Bohara, a dedicated Frontend Developer with a specialization in JavaScript and React. With a keen eye for detail and a love for crafting seamless user experiences, I transform complex ideas into interactive and visually appealing web applications.  
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-              voluptatum modi numquam consequatur corrupti quos totam magnam
-              sint minus a!
+            My goal is to bridge the gap between design and technology, bringing creative visions to life through innovative web solutions. I am always eager to learn and adapt to the ever-evolving landscape of web development.
             </p>
           </div>
           <div className="about-skills">

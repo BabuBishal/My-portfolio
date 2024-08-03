@@ -17,13 +17,25 @@
     gap: 5rem;
     font-size: 1.3rem;
     
+    
+    
 }
 
-.nav-menu li:hover{
+a{
+    text-decoration: none;
+}
+
+.nav-menu a:hover{
     color: #db9028;
-    transform: scale(1.05);
+    font-weight: bold;
+    
 }
 
+
+a .nav-resume{
+    text-decoration: none;
+    color: #fff;
+}
 .nav-resume{
     font-size: 1.3rem;
     font-weight: 500;
@@ -32,6 +44,7 @@
     background: linear-gradient(to right, #f1de5c, #ca720e);
     cursor: pointer;
     transition: 0.5s;
+      
 }
 
 .nav-resume:hover{

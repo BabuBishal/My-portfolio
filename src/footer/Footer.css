@@ -2,29 +2,30 @@
     margin: 5rem 20rem 3rem;
 }
 
-.footer-top{
-    margin-bottom: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    gap: 1.5rem;
-    img{
-        border-radius: 50%;
-        height: 5rem;
-    }
-}
+
 
 .footer-bottom{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 2rem;
+    img{
+        border-radius: 50%;
+        height: 4rem;
+    }
 
     .footer-bottom-left{
         display: flex;
+        align-items: center;
+        gap: 2rem;
     }
     
     .footer-bottom-right{
         display: flex;
         gap: 2rem;
+
+        img{
+            height: 1.5rem;
+        }
     }
 }

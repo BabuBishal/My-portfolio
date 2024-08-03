@@ -5,6 +5,30 @@ import phone_img from '../../assets/phone.png'
 import location_img from '../../assets/location.png'
 
 const Contact = () => {
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "21faa210-51cf-4bb0-a8bb-5c255d1dd3aa");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json"
+      },
+      body: json
+    }).then((res) => res.json());
+
+    if (res.success) {
+      console.log("Success", res);
+      alert("Message sent Successfully.")
+    }
+  };
   return (
            <div id='contact' className="contact">
             <div className="contact-title">
@@ -22,7 +46,7 @@ const Contact = () => {
                     </div>
                     <div className="contact-detail">
                       <img src={mail_img} alt="mail" />
-                      <p>bohorabishal20@gmail.com</p>
+                      <p>bohorabishalbabu@gmail.com</p>
                     </div>
                     <div className="contact-detail">
                       <img src={location_img} alt="location" />
@@ -31,7 +55,7 @@ const Contact = () => {
                     </div>
                     </div>
                 </div>
-                <form className="contact-right">
+                <form  onSubmit={onSubmit} className="contact-right">
                     <label htmlFor="">Your Name</label>
                     <input type="text" placeholder='Enter your name.' name='name' />
                     <label htmlFor="">Email</label>

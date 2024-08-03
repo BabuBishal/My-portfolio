@@ -20,12 +20,13 @@
 .hero h1{
     width: 50%;
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     font-weight: 600;
     margin: 1.5rem auto;
 }
 
 .hero h1 span{
+    font-size: 3.5rem;
     background: linear-gradient(to right, #f7ea9b, #d37811);
     background-clip: text;
     -webkit-background-clip: text;
@@ -62,8 +63,9 @@
     border: 2px solid #fff;
     padding: 1rem 1.5rem;
     font-size: 1.5rem;
-    
     cursor: pointer;
+    color: #fff;
+    font-weight: 500;
 
 }
 
