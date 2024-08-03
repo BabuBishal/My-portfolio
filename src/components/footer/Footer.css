@@ -2,8 +2,6 @@
     margin: 5rem 20rem 3rem;
 }
 
-
-
 .footer-bottom{
     display: flex;
     align-items: center;
@@ -17,15 +15,36 @@
     .footer-bottom-left{
         display: flex;
         align-items: center;
-        gap: 2rem;
+        gap: 1.5rem;
     }
     
     .footer-bottom-right{
         display: flex;
-        gap: 2rem;
+        gap: 1.5rem;
 
         img{
             height: 1.5rem;
+        }
+    }
+}
+
+@media(max-width: 768px){
+    .footer{
+        margin: 3rem 5rem;
+        
+        }
+    .footer-bottom{
+            img{
+                height: 3rem;
+            }
+        }
+    .footer-bottom-left{
+        gap: 1rem;
+    }
+    .footer-bottom-right{
+        gap: 1rem;
+        img{
+            height: 1.3rem;
         }
     }
 }

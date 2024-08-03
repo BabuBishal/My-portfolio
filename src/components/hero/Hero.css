@@ -18,7 +18,7 @@
 }
 
 .hero h1{
-    width: 50%;
+    width: 60%;
     text-align: center;
     font-size: 2.5rem;
     font-weight: 600;
@@ -34,7 +34,7 @@
 }
 
 .hero p{
-    width: 40%;
+    width: 50%;
     text-align: center;
     font-size: 1.5rem;
     line-height: 2.5rem;
@@ -76,5 +76,42 @@
 
 .hero-resume:hover{
     border: 2px solid #f1de5c;
+    
+}
+
+@media(max-width: 768px){
+    .hero img{
+        margin-bottom: 7.5rem;
+        width: 16rem;
+        }
+
+    .hero h1{
+        margin-top: 3rem;
+        width: 70%;
+        font-size: 2rem;
+    }
+
+    .hero h1 span{
+        font-size: 2.5rem;
+    }
+    .hero p{
+        width: 70%;
+        font-size: 1.2rem;
+        line-height: 2rem;
+        margin: 0.5rem 0;
+    }
+    .hero-action{
+        gap: 1rem;
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin-bottom: 3rem;
+    }
+    .hero-connect{
+        padding: 1rem 1.5em;
+        border-radius: 2.5rem
+    }
+    .hero-resume{
+        font-size: 1.2rem;
+    }
     
 }

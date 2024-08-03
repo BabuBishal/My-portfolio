@@ -4,7 +4,7 @@
     justify-content: space-between;
     margin: 1.5rem 20rem;
 
-    img{
+   .logo{
         height: 6rem;
         border-radius: 100%;
     }
@@ -16,9 +16,7 @@
     list-style: none;
     gap: 5rem;
     font-size: 1.3rem;
-    
-    
-    
+       
 }
 
 a{
@@ -51,4 +49,51 @@ a .nav-resume{
     transform: scale(1.05);
     transition: 0.5s;
 }
+.menu-close, .menu-open{
+    height: 3rem;
+    display: none;
+}
 
+@media(max-width: 768px){
+    .navbar{
+        margin: 1.4rem 2.5rem 1.5rem 5rem;
+    }
+    .nav-resume{
+        display: none;
+    }
+
+    .menu-open{
+        display: block;
+        position: fixed;
+        right: 2rem;
+    }
+    .menu-close{
+        display: block;
+        position: relative;
+        top: 2rem;
+        left: 18rem;
+        width: 2rem;
+        
+    }
+    .nav-menu{
+        position: fixed;
+        flex-direction: column;
+        align-items: start;
+        top: 0;
+        gap: 2rem;
+        background-color: #1f0016;
+        width: 22rem;
+        height: 100%;
+        z-index: 2;
+        right: -22rem;
+        transition: right 0.5s;
+
+    }
+    .nav-menu li{
+        font-size: 2rem;
+        padding-left: 100px;
+        flex-direction: row;
+        gap: 1.4rem;
+
+    }
+}
