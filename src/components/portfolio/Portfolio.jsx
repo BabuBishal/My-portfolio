@@ -12,7 +12,9 @@ const Portfolio = () => {
       </div>
       <div className="work-container">
         {my_work.map((work, index)=>{
-          return <img key={index} src={work.w_img} alt="" />
+          return<a href={work.url}>
+            <img key={index} src={work.w_img} alt="" />
+          </a> 
         })}
       </div> 
         <div className="work-showmore">
