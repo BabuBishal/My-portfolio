@@ -2,7 +2,7 @@ import React, { useRef } from 'react'
 import { Link } from 'react-scroll'
 import "./Navbar.css"
 import logo from '../../assets/Logo.png'
-import cv from '../../assets/CV.pdf'
+import cv from '../../assets/MyCV.pdf'
 import menu_open from '../../assets/menu-open.png'
 import menu_close from '../../assets/menu-close.png'
 
