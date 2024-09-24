@@ -1,7 +1,7 @@
-import Project1 from './utube.png'
-import Project2 from  './tetris.png'
-import Project3 from './hangman.png'
-import Project4 from './Project5-img.png'
+import Project1 from '../assets/utube.png'
+import Project2 from  '../assets/tetris.png'
+import Project3 from '../assets/hangman.png'
+import Project4 from '../assets/Project4-img.png'
 import Project5 from './Project5-img.png'
 import Project6 from './Project6-img.png'
 
