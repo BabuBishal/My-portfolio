@@ -1,7 +1,7 @@
-import Project1 from '../assets/utube.png'
-import Project2 from  '../assets/tetris.png'
-import Project3 from '../assets/hangman.png'
-import Project4 from '../assets/Project4-img.png'
+import Project1 from '../assets/projects/utube.png'
+import Project2 from  '../assets/projects/tetris.png'
+import Project3 from '../assets/projects/hangman.png'
+import Project4 from '../assets/projects/chatapp.png'
 import Project5 from './Project5-img.png'
 import Project6 from './Project6-img.png'
 
@@ -28,7 +28,7 @@ const work_data = [{
     w_no: 4,
     w_name: "Work4",
     w_img: Project4,
-    url: ""
+    url: "https://mychattyy.netlify.app/"
 },
 {
     w_no: 5,
