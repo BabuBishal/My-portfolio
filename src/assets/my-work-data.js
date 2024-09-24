@@ -1,7 +1,7 @@
 import Project1 from './utube.png'
 import Project2 from  './tetris.png'
-import Project3 from './tetris.png'
-import Project4 from './hangman.png'
+import Project3 from './hangman.png'
+import Project4 from './Project5-img.png'
 import Project5 from './Project5-img.png'
 import Project6 from './Project6-img.png'
 
@@ -22,13 +22,13 @@ const work_data = [{
     w_no: 3,
     w_name: "Work3",
     w_img: Project3, 
-    url: ""
+    url: 'https://bishal-hangman.netlify.app/'
 },
 {
     w_no: 4,
     w_name: "Work4",
     w_img: Project4,
-    url: 'https://bishal-hangman.netlify.app/'
+    url: ""
 },
 {
     w_no: 5,
