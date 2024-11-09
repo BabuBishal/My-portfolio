@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Portfolio.css";
 import my_work from "../../assets/my-work-data";
 import arrow_icon from "../../assets/arrow-icon.png";
@@ -8,6 +8,7 @@ function openInNewTab(url) {
 }
 
 const Portfolio = () => {
+  const [showlimit, setShowlimit] = useState(6)
   return (
     <div id="portfolio" className="portfolio">
       <div className="work-title">
@@ -15,7 +16,7 @@ const Portfolio = () => {
         <hr />
       </div>
       <div className="work-container">
-        {my_work.map((work, index) => {
+        {my_work.slice(0, showlimit).map((work, index) => {
           return (
             <a
               key={index}
@@ -30,7 +31,7 @@ const Portfolio = () => {
           );
         })}
       </div>
-      <div className="work-showmore">
+      <div className="work-showmore" onClick={() => setShowlimit(prev => prev + 6)}>
         <p>Show more</p>
         <img src={arrow_icon} alt="" />
       </div>

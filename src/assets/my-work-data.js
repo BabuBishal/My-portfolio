@@ -4,6 +4,7 @@ import Project3 from "./projects/hangman.png";
 import Project4 from "./projects/chatapp.png";
 import Project5 from "./projects/travel.png";
 import Project6 from "./projects/xora.png";
+import Project7 from "./projects/perfumeclub.png";
 
 const work_data = [
   {
@@ -34,7 +35,7 @@ const work_data = [
     w_no: 5,
     w_name: "Work5",
     w_img: Project5,
-    url: "",
+    url: "https://journeysbeyond.netlify.app/",
   },
   {
     w_no: 6,
@@ -42,6 +43,14 @@ const work_data = [
     w_img: Project6,
     url: "https://xora-bishal.netlify.app/",
   },
+  {
+    w_no: 7,
+    w_name: "Work7",
+    w_img: Project7,
+    url: "https://perfumeclub.netlify.app/",
+  },
+  
+  
 ];
 
 export default work_data;
