@@ -1,7 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import profile from "../../assets/profile_img.jpg";
-import cv from "../../assets/MyCV.pdf"
+import cv from "../../assets/BishalBabu_CV.pdf"
 import { Link } from "react-scroll";
 
 
