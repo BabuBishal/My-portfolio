@@ -5,6 +5,7 @@ import Project4 from "./projects/chatapp.png";
 import Project5 from "./projects/travel.png";
 import Project6 from "./projects/xora.png";
 import Project7 from "./projects/perfumeclub.png";
+import Project8 from "./projects/findyourworkout.png";
 
 const work_data = [
   {
@@ -49,8 +50,12 @@ const work_data = [
     w_img: Project7,
     url: "https://perfumeclub.netlify.app/",
   },
-  
-  
+  {
+    w_no: 8,
+    w_name: "Work8",
+    w_img: Project8,
+    url: "https://findyourworkout.netlify.app/",
+  },
 ];
 
 export default work_data;

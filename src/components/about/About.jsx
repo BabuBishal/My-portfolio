@@ -4,7 +4,7 @@ import profile from "../../assets/profile_img.jpg";
 
 const About = () => {
   return (
-    <div id='about' className="about">
+    <section id='about' className="about">
       <div className="about-title">
         <h1>About Me</h1>
         <hr />
@@ -49,7 +49,7 @@ const About = () => {
           <p>Projects Completed</p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

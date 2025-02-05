@@ -8,9 +8,9 @@ function openInNewTab(url) {
 }
 
 const Portfolio = () => {
-  const [showlimit, setShowlimit] = useState(6)
+  const [showlimit, setShowlimit] = useState(6);
   return (
-    <div id="portfolio" className="portfolio">
+    <section id="portfolio" className="portfolio">
       <div className="work-title">
         <h1>My Works</h1>
         <hr />
@@ -31,11 +31,14 @@ const Portfolio = () => {
           );
         })}
       </div>
-      <div className="work-showmore" onClick={() => setShowlimit(prev => prev + 6)}>
+      <div
+        className="work-showmore"
+        onClick={() => setShowlimit((prev) => prev + 6)}
+      >
         <p>Show more</p>
         <img src={arrow_icon} alt="" />
       </div>
-    </div>
+    </section>
   );
 };
 
