@@ -6,6 +6,7 @@ import Project5 from "./projects/travel.png";
 import Project6 from "./projects/xora.png";
 import Project7 from "./projects/perfumeclub.png";
 import Project8 from "./projects/findyourworkout.png";
+import Project9 from "./projects/pitchpal.png";
 
 const work_data = [
   {
@@ -55,6 +56,12 @@ const work_data = [
     w_name: "Work8",
     w_img: Project8,
     url: "https://findyourworkout.netlify.app/",
+  },
+  {
+    w_no: 9,
+    w_name: "Work9",
+    w_img: Project9,
+    url: "https://pitchpal-black.vercel.app/",
   },
 ];
 
